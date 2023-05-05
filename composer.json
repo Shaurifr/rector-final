@@ -28,7 +28,11 @@
     "autoload": {
         "psr-4": {
             "App\\": "src/"
-        }
+        },
+        "classmap": [
+            "src/Compute/Metrics/ComputeMetricsEasy.php",
+            "src/Compute/Miles/ComputeMiles.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
